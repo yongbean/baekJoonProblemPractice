@@ -29,5 +29,9 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
-```c++ std::cout.precision(12);``` max places to return.
-```c++ std::cout << std::fixed;``` set as presision number to be a fixed decimal places.
+```c++
+std::cout.precision(12);``` 
+max places to return.
+```c++ 
+std::cout << std::fixed;``` 
+set as presision number to be a fixed decimal places.
