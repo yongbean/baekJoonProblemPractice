@@ -38,5 +38,32 @@ std::cout << std::fixed;
 ``` 
 Set as presision number to be a fixed decimal places.
 
+## 곱셈
 
+₩₩₩
+#include <iostream>
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    int a,b, sum = 0;
+    
+    cin >> a >> b;
+    
+    cout << a * (b % 10) << "\n";
+    sum += a * (b % 10);
+    b /= 10;
+    
+    cout << a * (b % 10) << "\n";
+    sum += a * (b % 10) * 10;
+    b /= 10;
+    
+    cout << a * (b % 10) << "\n";
+    sum += a * (b % 10) * 100;
+    
+    cout << sum << "\n";
+    
+    return 0;
+}
+    ₩₩₩
 
