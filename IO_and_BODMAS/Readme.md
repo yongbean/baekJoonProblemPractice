@@ -41,7 +41,7 @@ Set as presision number to be a fixed decimal places.
 
 ## 곱셈 (i)
 
-```
+```c++
 #include <iostream>
 using namespace std;
 
@@ -69,7 +69,7 @@ int main(int argc, const char * argv[]) {
 ```
 ## 곱셈 (ii)
 
-```
+```c++
 #include <iostream>
 #include <math.h>
 
