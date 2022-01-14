@@ -1,6 +1,6 @@
-#If_Statement
+# If_Statement
 
-##사분면 고르기
+## 사분면 고르기
 
 나의 코딩
 ```c++
