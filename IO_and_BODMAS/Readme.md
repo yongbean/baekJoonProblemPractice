@@ -36,11 +36,12 @@ Max places to return.
 ```c++ 
 std::cout << std::fixed;
 ``` 
+
 Set as presision number to be a fixed decimal places.
 
 ## 곱셈
 
-₩₩₩
+```
 #include <iostream>
 using namespace std;
 
@@ -65,5 +66,5 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
-    ₩₩₩
+```
 
