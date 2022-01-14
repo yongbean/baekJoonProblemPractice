@@ -30,8 +30,10 @@ int main(int argc, const char * argv[]) {
 }
 ```
 ```c++
-std::cout.precision(12);``` 
+std::cout.precision(12);
+``` 
 max places to return.
 ```c++ 
-std::cout << std::fixed;``` 
+std::cout << std::fixed;
+``` 
 set as presision number to be a fixed decimal places.
