@@ -39,7 +39,7 @@ std::cout << std::fixed;
 
 Set as presision number to be a fixed decimal places.
 
-## 곱셈
+## 곱셈 (i)
 
 ```
 #include <iostream>
@@ -67,4 +67,33 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+## 곱셈 (ii)
+
+```
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    int a,b, sum = 0, i = 0;
+    
+    cin >> a >> b;
+    
+    do{
+        cout << a * (b % 10) << "\n";
+        sum += a * (b % 10) * pow(10, i);
+        b /= 10;
+        i++;
+    }
+    while(b > 0);
+    
+    cout << sum << "\n";
+    
+    return 0;
+}
+```
+
+
 
