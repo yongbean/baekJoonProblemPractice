@@ -2,7 +2,7 @@
 
 ## default coding
 
-```
+```c++
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
