@@ -9,6 +9,9 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    int year;
+    
+    
+    
     return 0;
 }
