@@ -12,7 +12,7 @@ int main(int argc, const char * argv[]) {
 }
 
 ```
-
+___
 ## A/B
 
 ```c++
@@ -38,7 +38,7 @@ std::cout << std::fixed;
 ``` 
 
 Set as presision number to be a fixed decimal places.
-
+___
 ## 곱셈 (i)
 
 ```c++
@@ -67,6 +67,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+___
 ## 곱셈 (ii)
 
 ```c++
