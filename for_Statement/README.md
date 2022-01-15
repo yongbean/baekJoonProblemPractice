@@ -23,5 +23,4 @@ int main(int argc, const char * argv[]) {
 #define MAX 10
 ```
 사용하여 코딩 내의 숫자 줄이기
-
 ___
