@@ -26,3 +26,9 @@ for (int i = 0; i < T; i++) {
 이런 식으로 입력을 받고 바로 출력을 해줄 수 도 있다.
 ___
 
+## 빠른 A + B
+
+```c++
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+```
