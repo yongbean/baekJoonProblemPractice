@@ -36,11 +36,3 @@ ios_base::sync_with_stdio(false);
 cin.tie(NULL);
 ``` 
 to reduce the process
-
-
-
-![IMG_0078.PNG](../Image/IMG_0078.PNG)
-
-
-
-<img src="../Image/IMG_0078.PNG">
