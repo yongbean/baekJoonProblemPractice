@@ -46,3 +46,27 @@ for (int i = 0; i < 10; i++) {
 하지만 tie값이 0/NULL일 경우
 
 바로 버퍼의 값을 올려주는 것이 아니라 개행(줄바꿈)을 입력 받을 때까지 계속 입력을 받은 후 버퍼에 있는 값을 한번에 출력해준다.
+
+## A + B - 4
+1.
+```c++
+    while(!(cin >> a >> b).eof()){
+```
+2.
+```c++
+while (cin >> a >> b) {
+```
+3.
+```c++
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+ 
+	int a, b;
+	while (cin >> a >> b) {
+		cout << a + b << "\n";
+	}
+ ```
+ 
+ 즉, while 문에서 바로 확인하는 방법이 있다.
+ ```바로 
+ ```
