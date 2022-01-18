@@ -1,32 +1,27 @@
 //
 //  main.cpp
-//  10818_220118_maxAndMin
+//  02562_220118_maxWithIndex
 //
 //  Created by Yongbean Chung on 2022/01/18.
 //
 
 #include <iostream>
-#include <algorithm>
-
+#define N 9
 using namespace std;
-
 int main(int argc, const char * argv[]) {
     // insert code here...
-    ios_base::sync_with_stdio(0);
     
-    int list[1000001];
-    
-    int N;// max = -1000000, min = 1000000, N;
-    
-    cin >> N;
+    int list[N], count = 0, max = 0;
     
     for(int i = 0; i < N; i++){
         cin >> list[i];
+        if(list[i] > max){
+            max = list[i];
+            count = i;
+        }
     }
     
-    sort(list, list + N);
-    
-    cout << list[0] << " " << list[N-1];
+    cout << max << "\n" << count + 1 << "\n";
     
     return 0;
 }
