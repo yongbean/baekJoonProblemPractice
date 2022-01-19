@@ -10,10 +10,16 @@ sort(list, list + N);
 this function sorts array from min to max number.
 
 또한 주어지는 조건 잘 확인하기
-___
+<hr>
+
 ## 숫자의 개수
 
 I used switch to filter out the numbers for multiplied number.
+
+--> It is not necessary to use the switch as we can easily manipulate it with 
+```c++
+sums[calNum % 10]++;
+```
 
 However, it takes longer coding to code this problem.
 
@@ -35,4 +41,15 @@ even for this part, we can use:
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
 ``` 
-to reduce the process
+___
+## 평균
+
+sort 함수를 사용할 때 
+```c++
+#include <algorithm>
+```
+위에 붙여야 한다.
+___
+
+
+
