@@ -53,7 +53,9 @@ ___
 ## OX퀴즈
 
 이 문제는 O를 연속으로 맞췄을 때 n+1형태로 늘어나서 마지막에 모두 더해 출력하는 형태의 문제이다.
+
 string을 입력 받은 후, 하나의 character씩 확인을 해서 입력 받은 항이 'O'일 경우 count++을 한 뒤 sum에 더해준다.
+
 character가 'X'인 경우, count를 0으로 바꿔준다.
 
 마지막 character까지 왔다면 sum을 출력해준다.
@@ -71,6 +73,7 @@ ___
 
 ### malloc 활용
 이번 문제에는 동적 할당 (memory allocation)이 필요하다.
+
 N의 값은 사용자에 의해 바뀔 수 있기 때문에 즉, array의 할당 데이터 사이즈가 사용자에 의해 바뀔 수 있기 때문에 malloc 및 calloc을 활용해 바꿀 수 있어야 한다.
 
 즉 c와 같은
@@ -84,6 +87,7 @@ int* arr = new int[size];
 이러한 c++ 코딩도 가능하다.
 
 malloc을 사용했을 경우, free(변수)를 사용해야 한다.
+
 new 키워드를 사용했을 경우, delete[] 변수를 써줘야 한다.
 
 ### vector 활용
@@ -102,14 +106,17 @@ vector<int> vec;
 vec.push_back(value);
 ```
 벡터의 경우 포인터를 사용하면 malloc과 new처럼 직접 지워주는 작업을 해야한다.
+___
+## 정수 N개의 합
+함수를 만들때 
+```c++
+long long sum(std::vector<int> &a);
+```
+이 내용을 사용하라고 했다.
 
+이 함수 정의를 잘 보면, vector a라는 인자를 지닌 sum 함수인데 리턴을 long long type으로 해줘야 한다는 것이다.
 
+즉, a라는 벡터에는 N개의 원소가 있어서 그 모든 원소를 더해 반환하라는 함수를 만들어야 한다.
 
-
-
-
-
-
-
-
-
+인자에 vector가 들어 있기 때문에 header에 #include <vector>를 넣어줘야 한다.
+___
