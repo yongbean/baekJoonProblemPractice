@@ -9,6 +9,10 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    char inputs;
+    
+    std::cin >> inputs;
+    
+    std::cout << (int)inputs << std::endl;
     return 0;
 }
