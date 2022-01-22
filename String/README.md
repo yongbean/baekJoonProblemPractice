@@ -60,4 +60,14 @@ int main(){
 이 코딩은 .length()와 .find()를 통해 단어의 길이와 위치를 찾을 수 있다. JAVA와 같은 원리라고 생각하면 좋을 것 같다.
 ___
 
+## 6. 단어의 개수
 
+```c++
+cin.getline(sentence, N);
+```
+또는
+```c++
+fgets(sentence, sizeof(sentence, stdin);
+```
+사용하여 input받기
+___
