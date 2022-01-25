@@ -7,17 +7,17 @@
 
 #include <iostream>
 using namespace std;
-int main(int argc, const char * argv[]) {
+int main() {
     int N, i = 1, current = 1;
     
     cin >> N;
     
     if(N == 1){
-        cout << "1\n";
+        cout << i;
     }
     else{
         while(1){
-            if(N > current && N < current + i*6){
+            if(N > current && N <= current + i*6){
                 cout << i+1;
                 break;
             }
