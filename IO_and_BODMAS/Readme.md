@@ -37,7 +37,7 @@ Max places to return.
 std::cout << std::fixed;
 ``` 
 
-Set as presision number to be a fixed decimal places.
+Set as precision number to be a fixed decimal places.
 ___
 ## 곱셈 (i)
 
